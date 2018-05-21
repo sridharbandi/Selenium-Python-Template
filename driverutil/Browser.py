@@ -23,4 +23,6 @@ class Browser(object):
         else:
             self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
+        self.driver.maximize_window()
+        self.driver.implicitly_wait(60)
         return self.driver
