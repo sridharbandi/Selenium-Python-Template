@@ -6,7 +6,7 @@ To automate [Selenium Webdriver](https://docs.seleniumhq.org/projects/webdriver/
 Create the Page Objects of your Web application under **_pageobjects_** package and call those Page Objects in your  unittests under **_tests_** package (Sample Page Objects, testcase included in this template)
 
 ### Install
-To install the required dependencies isse the below command in project root directory
+To install the required dependencies issue the below command in project root directory
 ```javascript
 pip3 install -r requirements.txt
 ```
